@@ -1,0 +1,17 @@
+package comp_decomp;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.zip.GZIPInputStream;
+
+
+public class Decompressor {
+	
+	public static void method(File file)throws IOException {
+		String fileDirectory =file.getParent();
+		
+		FileInputStream fis =new FileInputStream(file);
+		GZInputStream gzip = new GZInputStream(fis);
+		
+	}
+}

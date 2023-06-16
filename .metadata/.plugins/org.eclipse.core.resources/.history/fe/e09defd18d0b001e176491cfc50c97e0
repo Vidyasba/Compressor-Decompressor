@@ -1,0 +1,26 @@
+package GUI;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+
+public class AppFrame extends JFrame implements ActionListener{
+
+	//Creating 2 buttons
+	JButton compressButton;
+	JButton deCompressButton;
+	
+	AppFrame(){
+		
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+	}
+		
+	
+}
